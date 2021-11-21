@@ -1,0 +1,110 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(to right, #8B3039, #2B4895);
+    color: #FFF;
+}
+.sign-up-form
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 100%;
+    margin-bottom: 25px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 1.0);
+    padding: 20px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.sign-up-form-inner{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.input-box
+{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    border: 1px solid #dadada;
+    border-radius: 7px;
+    background: transparent;
+    color: #FFF;
+    outline: none;
+    text-align: center;
+}
+.input-box:focus{
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+.button
+{
+    width: 100px;
+    color: #fff;
+    background: transparent;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+   border: 1px solid #FFF;
+    cursor: pointer;
+    transition: 0.30s ease-in-out;
+}
+
+.button:hover{
+    background-color: rgba(138, 10, 10, 0.7);
+}
+.sign-btn
+{
+    color: rgb(197, 178, 6);
+    transition: 0.30s ease-in-out;
+}
+.sign-btn:hover{
+    color: sandybrown;
+}
+a
+{
+    text-decoration: none;
+}
+hr
+{
+    width: 80%;
+}
+ul {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+
+}
+i {
+    color: #FFF;
+    transition: 0.25s ease-in-out;
+}
+.fa-facebook-f:hover {
+    color: rgb(7, 105, 253);
+}
+.fa-twitter:hover {
+    color: rgb(13, 142, 228);
+}
+.fa-youtube:hover {
+    color: rgb(255, 0, 43);
+}
+
+img{
+   width: 50px; 
+   height: 50;
+   /* imag */
+}
